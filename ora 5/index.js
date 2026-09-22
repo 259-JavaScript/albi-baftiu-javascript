@@ -46,3 +46,26 @@ identiteti("Filan", "Fisteku", 20)
  const prodhimArrow = (a, b, c) => {a * b * c}
 
  prodhimArrow(3, 5, 6)
+
+// function dyfishore(a){
+//    let rezultati = a * 2
+//    return rezultati
+// }
+
+
+ const dyfishore = a=> a *2
+
+ const persehndetPerdoruesin = (emri) =>{
+   const mesazhi = "Pershendetje," + emri + "!"
+   console.log(mesazhi)
+   return mesazhi
+ }
+
+ persehndetPerdoruesin("Albi")
+
+ const llogaritCmimin = (cmimiBaze, sasia) => {
+   const totali = cmimiBaze * sasia
+   return totali
+ }
+
+ console.log(llogaritCmimin(2, 10))
