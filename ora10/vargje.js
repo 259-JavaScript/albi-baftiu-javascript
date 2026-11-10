@@ -1,0 +1,21 @@
+let fruits = ["Apple", "Orange", "Kiwi", "Peach"];
+console.log(fruits)
+fruits.push("Pear")
+console.log(fruits)
+fruits.pop()
+fruits.pop()
+console.log(fruits)
+fruits.shift()
+console.log(fruits)
+fruits.unshift("Pear")
+console.log(fruits)
+
+let words = ["life", "is"]
+words.push("Beautiful")
+console.log(words)
+words.unshift("Maybe")
+console.log(words)
+words.unshift("Hehe")
+console.log(words)
+words.shift(words)
+console.log(words)
